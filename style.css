@@ -1,0 +1,28 @@
+.velha{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    background: red;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.elemento{
+    display: flex;
+    width: 155px;
+    height: 155px;
+    background: orange;
+    margin: 5px;
+    font-size: 150px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.elemento:hover{
+    background-color: rgba(255, 166, 0, 0.7);
+    
+}
+
